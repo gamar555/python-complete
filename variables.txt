@@ -1,0 +1,49 @@
+1. Declaring Variables
+
+name ="Amarjeet"
+age =28
+is_learning = True
+
+
+name is a string
+age is integer
+is_learning is boolean
+
+
+
+
+*********************type checking******************
+
+print(type(name))
+print(type(age))
+print(type(is_learning))
+
+--------------------Intermediate level----------------
+:::Arithmetic with Variables
+a= 20
+b =5
+sum = a+b
+print("Sum:", sum)
+
+
+::::::Multiple Assignments:::::::::::
+
+x, y, z =1,2,3
+print(x,y,z)
+
+
+::::::Swapping Variables:::::
+
+a, b = 5, 10
+a, b = b, a
+print(a, b) # Output : 10, 5
+
+
+>>>> Advanced level:Scope, constants, and Dynamic typing  >>>>>>.
+Variable Scope
+
+
+def greet();
+    message = "Hello"
+    print(message)
+greet()
